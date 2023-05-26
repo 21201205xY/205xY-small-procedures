@@ -23,7 +23,7 @@ if __name__ == '__main__':
     print(
         '此程序开源，开源地址：https://github.com/21201205xY/205xY-small-procedures/tree/main\n'
         '此程序会自动读取你电脑剪切板的内容并模拟键盘输出\n'
-        '(暂不支持中文模拟输入)\n'
+        '(可在setting中更改单个字符输出间隔，暂不支持中文模拟输入)\n'
         '将要复制内容复制后，输入\'1\'以开始粘贴:'
         , end='')
     flag = eval(input())
